@@ -24,21 +24,21 @@ h1 {
 }
 
 h2 {
-    font-size: 100%;
+    font-size: 125%;
     font-family: Work Sans;
     font-weight: normal;
     color: black;
     background: transparent;
     text-align: center;
     width: 70%;
-    margin: 0;
+    margin: 0 auto;
 }
 
 p {
-    padding: 0 0%;
+    padding: 0;
     margin: 30px auto;
     font-family: Work Sans;
-    font-size: 75%;
+    font-size: 100%;
     text-align: left;
     line-height: 25px;
     width: 75%;
@@ -161,7 +161,7 @@ li {
 
 .massage-list {
     max-width: 500px;
-    margin: 0 26%;
+    margin: 0 auto;
     
 }
 
