@@ -64,7 +64,7 @@ a, button {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 120vh;
     width: auto;
     object-fit: cover;
 }
@@ -93,7 +93,7 @@ a, button {
     width: 40vw;
     position: absolute;
     left: 30%;
-    top: 30%;
+    top: 25%;
     float: left;
 }
 
