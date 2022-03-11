@@ -70,7 +70,7 @@ a, button {
 }
 
 .container {
-    width: 100%;
+    width: auto;
     height: 150px;
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,0.9121849423363095) 0%, rgba(0,0,0,0.7861345221682423) 39%, rgba(0,0,0,0) 100%, rgba(0,0,0,0.2595238779105392) 100%);
