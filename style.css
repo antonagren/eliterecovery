@@ -94,8 +94,8 @@ a, button {
 
 .logo2 {
     position: absolute;
-    width: 40vh;
-    left: 40%;
+    width: 30vw;
+    left: 35%;
     top: 35%;
 }
 
@@ -114,12 +114,12 @@ a, button {
 }
 
 .nav-bar button {
-    padding: 10px 20px;
+    padding: 0;
     color: black;
     background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
-    margin: -10px 20px;
+    margin: -10px 0;
     width: 200px;
 }
 
@@ -167,7 +167,7 @@ li {
 
 .deb-list {
     max-width: 500px;
-    margin: 0 26%;
+    margin: 0 auto;
 }
 
 #kost {
