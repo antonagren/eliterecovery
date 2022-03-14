@@ -155,7 +155,7 @@ li {
 
 #massage {
     background-color: white;
-    padding: 100px;
+    padding: 100px 0px;
     color: black;
 }
 
@@ -193,3 +193,4 @@ li {
     display: block;
     margin: auto;
 }
+
