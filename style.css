@@ -34,12 +34,24 @@ h2 {
     margin: 0 auto;
 }
 
+h3 {
+    font-size: 100%;
+    font-family: Work Sans;
+    font-weight: normal;
+    color: black;
+    background: transparent;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
 p {
     padding: 0;
     margin: 30px auto;
     font-family: Work Sans;
     font-size: 100%;
-    text-align: left;
+    text-align: center;
     line-height: 25px;
     width: 75%;
 }
@@ -54,9 +66,14 @@ p {
 
 }
 
+a {
+    padding: 0;
+    margin: 0;
+}
+
 a, button {
     color: #CCCCCC;
-    font-size: 20px;
+    font-size: 16px;
     font-family: Work Sans;
     font-weight: 500;
     text-decoration: none;    
@@ -94,9 +111,9 @@ a, button {
 
 .logo2 {
     position: absolute;
-    width: 30vw;
-    left: 35%;
-    top: 35%;
+    width: 25%;
+    left: 37%;
+    top: 30%;
 }
 
 .nav-bar{
@@ -113,17 +130,18 @@ a, button {
     transition: all 0.3s ease 0s;
 }
 
-.nav-bar button {
-    padding: 0;
+.banner button {
+    padding: 10px 0;
+    width: 10vw;
     color: black;
     background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
-    margin: -10px 0;
-    width: 200px;
+    margin: 37% 44% 0;
+    position: absolute;
 }
 
-.nav-bar button:hover {
+.banner button:hover {
     opacity: 0.7;
     transition: all 0.3s ease 0s;
 }
@@ -132,11 +150,11 @@ a, button {
     color: grey;
 }
 
-.nav-bar button a {
+.banner button a {
     color: black;
 }
 
-.nav-bar button a:hover {
+.banner button a:hover {
     color: black;
 }
 
@@ -162,7 +180,6 @@ li {
 .massage-list {
     max-width: 500px;
     margin: 0 auto;
-    
 }
 
 .deb-list {
