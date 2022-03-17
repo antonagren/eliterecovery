@@ -241,7 +241,7 @@ label {
     display: none;
 }
 
-.menu {
+#menu {
     display: none;
 }
 
@@ -258,19 +258,19 @@ label {
         display: none;
     }
 
-    .menu {
+    #menu {
         text-align: center;
         display: none;
         background-color: black;
         height: 100vh;
     }
 
-    .menu a {
+    #menu a {
         display: block;
         padding: 40px 0;
     }
 
-    #toggle:checked + .menu {
+    #toggle:checked + #menu.active {
         display: block;
     }
 
