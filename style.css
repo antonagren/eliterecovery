@@ -24,10 +24,10 @@ h1 {
 }
 
 h2 {
-    font-size: 125%;
+    font-size: 150%;
     font-family: Work Sans;
-    font-weight: normal;
-    color: black;
+    font-weight: lighter;
+    color: white;
     background: transparent;
     text-align: center;
     width: 70%;
@@ -35,10 +35,10 @@ h2 {
 }
 
 h3 {
-    font-size: 100%;
+    font-size: 120%;
     font-family: Work Sans;
-    font-weight: normal;
-    color: black;
+    font-weight: lighter;
+    color: white;
     background: transparent;
     text-align: center;
     width: 70%;
@@ -134,32 +134,30 @@ a, button {
     transition: all 0.3s ease 0s;
 }
 
-.banner button {
+.button-primary {
     padding: 10px 5px;
     width: 100px;
     color: black;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     border: none;
     border-radius: 5px;
     position: absolute;
     margin: 330px 150px;
+    text-align: center;
 }
 
-.banner button:hover {
+.button-primary:hover {
     opacity: 0.7;
     transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.button-primary a:hover {
+    cursor: pointer;
 }
 
 .nav-bar a:hover {
     color: grey;
-}
-
-.banner button a {
-    color: black;
-}
-
-.banner button a:hover {
-    color: black;
 }
 
 .banner h1 {
@@ -173,26 +171,26 @@ ul {
 }
 
 li {
-    margin: 0;
     padding: 0;
     font-family: Work Sans;
-    text-align: center;
 }
 
 #massage {
-    background-color: white;
+    background-color: #333333;
     padding: 100px 0px;
-    color: black;
+    color: white;
 }
 
 .massage-list {
     max-width: 500px;
     margin: 0 auto;
+    padding-left: 22%;
 }
 
 .deb-list {
     max-width: 500px;
     margin: 0 auto;
+    padding-left: 15%;
 }
 
 #kost {
@@ -216,9 +214,9 @@ li {
 }
 
 #pt {
-    background-color: white;
+    background-color: #333333;
     padding: 100px 0;
-    color: black;
+    color: white;
     
 }
 
@@ -287,11 +285,22 @@ label {
         width: 0;
     }
 
-    .banner button {
+    .button-primary {
         margin: 220px 75px;
         padding: 20px 20px;
     }
 
+    .massage-list {
+        font-size: 100%;
+        max-width: 80%;
+        display: block;
+    }
+
+    .deb-list {
+        font-size: 100%;
+        max-width: 50%;
+        display: block;
+    }
 }
 
 
