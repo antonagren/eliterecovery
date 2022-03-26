@@ -51,18 +51,16 @@ p {
     margin: 30px auto;
     font-family: Work Sans;
     font-size: 100%;
-    text-align: center;
+    text-align: left;
     line-height: 25px;
-    width: 75%;
+    max-width: 50%;
 }
 
 .header{
     display: flex; 
     justify-content: space-between;
     align-items: center;
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,0.9121849423363095) 0%, rgba(0,0,0,0.7861345221682423) 39%, rgba(0,0,0,0) 100%, rgba(0,0,0,0.2595238779105392) 100%);
-
+    background-color: black;
 }
 
 a {
@@ -91,7 +89,7 @@ a, button {
 .container {
     width: 100%;
     height: 70px;
-    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.5);
     position: fixed;
 }
 
@@ -182,15 +180,17 @@ li {
 }
 
 .massage-list {
-    max-width: 500px;
+    max-width: 80%;
     margin: 0 auto;
-    padding-left: 22%;
+    padding-left: 30%;
+    display: block;
 }
 
 .deb-list {
-    max-width: 500px;
+    max-width: 80%;
     margin: 0 auto;
-    padding-left: 15%;
+    padding-left: 35%;
+    display: block;
 }
 
 #kost {
@@ -252,6 +252,10 @@ label {
         font-size: 30px;
     }
 
+    p {
+        max-width: 75%;
+    }
+
     .nav-bar {
         display: none;
     }
@@ -294,12 +298,14 @@ label {
         font-size: 100%;
         max-width: 80%;
         display: block;
+        padding-left: 20%;
     }
 
     .deb-list {
         font-size: 100%;
         max-width: 50%;
         display: block;
+        padding-left: 15%;
     }
 }
 
